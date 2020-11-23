@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family:sans-serif;
+    background-image: url(img/um.jpg);
+}
+h1, h2 {
+    color:#d6cdcd;
+}
+h1 {
+    text-align: right;
+    padding-right: 2%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#content {
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    border-radius:  1% 1% 0 0;
+    box-shadow: 0px 0px 15px #3d3a3a;
+    
+}
+
+#navBar {
+    
+    padding: 0 50 0 0;
+    position: relative;
+    width: 90%;
+	list-style-type: none;
+    
+}
+#barra {
+    
+    float: left;
+    padding: 1%;
+    position: relative;
+    margin-bottom: 2%;
+    
+    
+}
+#barra a {
+    color: #562b0a;
+    text-decoration: none;
+    border: 1px;
+    margin: 1px;
+    font-size: 110%;
+}
+#barra a:hover {
+    color: #d6cdcd;
+	} 
+
+#imagem1, #imagem2, #imagem3, #imagem4 {
+    height: auto;
+    width: 100%;
+    
+}
+
+
+#sobreDiv, #profissionalDiv, #cursosDiv, #contatoDiv {
+    background-color: rgba(86, 43, 10, 0.5);
+    width: 40%;
+    padding: 10px;
+    border-radius: 7px;
+}
+#sobreDiv {
+    position: absolute;
+    float: left;
+    right: 2%;
+    top: 15%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#profissionalDiv {
+    position: absolute;
+    float: right;
+    left: 2%;
+    top: 35%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#cursosDiv {
+    position: absolute;
+    float: left;
+    right: 2%;
+    top: 64%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#contatoDiv {
+    position: absolute;
+    float: right;
+    left: 2%;
+    top: 82%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#cite {
+    text-decoration: none;
+    color: black;
+}
+#cite:hover {
+    color: #d6cdcd;
+}
+#negrito {
+    font-weight: bolder;
+}
+.input-btn{
+	width:155px;
+	height:30px;
+	background:#d6cdcd;
+	border-radius:4px;
+	color:#111;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:400;
+	border:0px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.input-btn:hover{
+	background: #111;
+	color: #fff;
+}
+form{
+}
+#nomeEstilo, #emailEstilo, #assEstilo {
+	
+	border: 6px solid #d6cdcd;
+    border-radius: 2px;
+	font-size: 90%;
+	color: black;
+	background-color: #d6cdcd;
+    margin-bottom: 1%;
+    }
+#msgEstilo {
+    border: 6px solid #d6cdcd;
+    border-radius: 2px;
+	font-size: 90%;
+	color: black;
+	background-color: #d6cdcd;
+    margin-bottom: 1%;
+    width: 325px;
+    height: 110px;
+}
+
+
+
+
+
