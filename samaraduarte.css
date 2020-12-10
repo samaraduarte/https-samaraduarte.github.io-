@@ -2,6 +2,11 @@ body {
     margin: 0;
     font-family:sans-serif;
     background-image: url(img/um.jpg);
+    color: white
+}
+a {
+    text-decoration: none;
+    color: white
 }
 h1, h2 {
     color:#d6cdcd;
@@ -96,11 +101,7 @@ h1 {
     max-width: 100%;
     max-height: 100%;
 }
-#cite {
-    text-decoration: none;
-    color: black;
-}
-#cite:hover {
+a:hover {
     color: #d6cdcd;
 }
 #negrito {
